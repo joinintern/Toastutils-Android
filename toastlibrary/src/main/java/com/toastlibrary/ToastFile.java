@@ -8,7 +8,7 @@ import android.widget.Toast;
  */
 
 public class ToastFile {
-    public void toast(final String message, final AppCompatActivity activity) {
+    public static void toast(final String message, final AppCompatActivity activity) {
         try {
             activity.runOnUiThread(new Runnable() {
                 @Override
